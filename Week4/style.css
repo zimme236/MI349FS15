@@ -1,0 +1,28 @@
+body{
+	
+	font-family: arial;
+	margin: 0 auto;
+	background: #ccc;
+}
+
+.container{
+	margin: 0 auto;
+	width: 700px;
+}
+
+article{
+	padding: 20px 40px;
+	background: #ccc;
+}
+
+h1{
+	color: #309F00;
+}
+
+h2{
+	color: #7206AE;
+}
+
+h3{
+	color: orange;
+}
