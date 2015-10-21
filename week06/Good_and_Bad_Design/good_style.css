@@ -1,0 +1,31 @@
+body{
+	background:#ccc;
+	text-align: center;
+	
+}
+
+.container{
+	margin: 0 auto;
+	width: 700px;
+}
+
+article{
+	padding: 20px 40px;
+	background: #ccc;
+}
+
+img{
+	height: 200px;
+	width: 200px;
+		
+}
+
+url{
+	color: blue;
+	padding: 12px;
+	text-decoration: underline;
+}
+
+p{
+	padding: 20px 20px;
+}

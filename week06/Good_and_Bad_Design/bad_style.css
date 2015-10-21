@@ -1,0 +1,27 @@
+body{
+	background: orange;
+	text-align: center;
+	
+}
+
+.container{
+	margin: 0 auto;
+	width: 700px;
+}
+
+article{
+	padding: 20px 40px;
+	background: green;
+}
+
+img{
+	height: 200px;
+	width: 200px;
+	
+}
+
+url{
+	color: blue;
+	padding: 12px;
+	text-decoration: underline;
+}
