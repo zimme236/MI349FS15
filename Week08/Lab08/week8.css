@@ -1,0 +1,58 @@
+.column{
+	float: left;
+	width: 50%;
+	margin: 0 auto;
+	background: #e3e3e3;
+	padding; 1em;
+	
+}
+
+div {
+    -webkit-column-count: 3;
+    column-count: 3;
+}
+
+@media (min-width: 1200px){
+	.column{
+		width: 100%;
+	}
+	div {
+    -webkit-column-count: 3;
+    column-count: 3;
+	}
+}
+
+
+
+@media (min-width: 600px) and (max-width: 1199px){
+	.column{
+		width: 100%;
+	}
+	div {
+    -webkit-column-count: 2;
+    column-count: 2;
+	}
+
+} 
+
+@media (min-width: 400px) and (max-width: 599px){
+	.column{
+		width: 100%;
+	}
+	div {
+    -webkit-column-count: 1;
+    column-count: 1;
+	}
+
+}
+
+@media 
+(-webkit-min-device-pixel-ratio: 2)
+(min-resolution: 192dpi) {
+	/* Retina */
+}
+
+/* must nest rules in media queries.
+ * Focus on min and max break points for this class
+ * 
+ */
